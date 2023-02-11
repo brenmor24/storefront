@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  database:
+    image: mcr.microsoft.com/azure-sql-edge
+    container_name: edge
+    environment:
+      - ACCEPT_EULA=1
+      - MSSQL_SA_PASSWORD=6rZ97aD22@m#Xf3Bu#r2
+      - MSSQL_PID=Developer
+      - MSSQL_USER=SA
+    ports:
+      - 1433:1433
+    volumes:
+      - ./database/data:/usr/src/data
+    networks:
+      - network
+
+  seeder:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: utility
+    restart: on-failure
+    command: /bin/bash /usr/src/app/migrate.sh
+    volumes:
+      - ./database/migrations:/usr/src/app
+    depends_on:
+      - database
+    networks:
+      - network
+
+  server:
+    container_name: express
+    restart: unless-stopped
+    build:
+      context: ./server
+    ports:
+      - 2222:2222
+    volumes:
+      - ./server:/usr/src/app
+    depends_on:
+      - database
+    networks:
+      - network
+
+  market:
+    container_name: react
+    restart: unless-stopped
+    build:
+      context: ./market
+    ports:
+      - 3000:3000
+    volumes:
+      - ./market:/usr/src/app
+    depends_on:
+      - server
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge

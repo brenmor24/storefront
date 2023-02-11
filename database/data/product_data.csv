@@ -1,0 +1,65 @@
+product_id,primary_image,category,size,descriptor,subtext,price,condition,available
+1,team.png,shoes,M,Volkswagen,Corrado,0.031,new,0
+2,bayer.png,hats,L,Nissan,Sentra,0.004,new,0
+3,bowling.png,shoes,XL,Chevrolet,Corvette,0.089,new,0
+4,josefinas.png,shoes,XL,Saab,9000,0.018,new,1
+5,village.webp,pants,L,Volkswagen,New Beetle,0.079,new,1
+6,formal.png,shoes,M,Dodge,Dakota,0.097,pre-owned,1
+7,mtn_ops.webp,hats,XL,Eagle,Talon,0.014,new,0
+8,pantalone.png,pants,XL,BMW,8 Series,0.001,pre-owned,1
+9,chromatica.webp,pants,M,Cadillac,Catera,0.028,pre-owned,1
+10,bruno_mars.png,shirts,L,Land Rover,Range Rover Sport,0.017,pre-owned,1
+11,bears.webp,hats,M,Lincoln,Town Car,0.053,pre-owned,0
+12,shark.webp,hats,L,Chevrolet,Suburban 1500,0.025,pre-owned,0
+13,coleman.png,pants,S,Chevrolet,Camaro,0.08,new,0
+14,vanguard.webp,hats,M,Mercedes-Benz,E-Class,0.049,new,1
+15,yearning.webp,shirts,XL,Porsche,Cayenne,0.066,new,0
+16,galaxy.png,pants,XL,Volvo,XC90,0.097,new,0
+17,gatti.png,shoes,M,Mercedes-Benz,M-Class,0.024,new,1
+18,optics.webp,hats,L,Chevrolet,Corvette,0.01,new,1
+19,breeding.webp,shirts,M,Dodge,Ram Wagon B250,0.06,pre-owned,0
+20,velociti.png,shoes,M,Toyota,Camry,0.07,pre-owned,1
+21,gaming.webp,shirts,L,Nissan,Xterra,0.016,new,1
+22,stones.png,shirts,L,Volkswagen,Cabriolet,0.091,new,0
+23,oklahoma.png,hats,M,Buick,LaCrosse,0.027,new,0
+24,chainlink.webp,shirts,XL,Mercury,Tracer,0.018,pre-owned,1
+25,stussy.png,shirts,M,Mercedes-Benz,C-Class,0.037,pre-owned,1
+26,envy_bloom.png,shoes,XL,BMW,X3,0.066,pre-owned,0
+27,carrot_dog.webp,shirts,S,GMC,Sierra 2500,0.097,new,1
+28,diamond.webp,hats,M,Lincoln,Continental,0.002,pre-owned,0
+29,coke.webp,hats,M,Mercedes-Benz,C-Class,0.003,pre-owned,1
+30,capsule.webp,pants,M,Lexus,GX,0.052,pre-owned,1
+31,lucky_brand.gif,pants,L,Mitsubishi,Eclipse,0.037,new,0
+32,lady_gaga.webp,shirts,L,Ford,Fairlane,0.023,pre-owned,1
+33,brunswick.png,shoes,L,Pontiac,Sunfire,0.029,pre-owned,1
+34,vlone.png,shirts,M,Mazda,MX-3,0.044,new,1
+35,orthopedic.webp,shoes,XL,Nissan,Xterra,0.043,new,1
+36,aligator.webp,shoes,L,Chevrolet,Sportvan G30,0.027,new,1
+37,dabear.webp,hats,S,Buick,Electra,0.067,pre-owned,1
+38,talus.webp,pants,XL,Acura,RDX,0.011,new,1
+39,x_scape.webp,shoes,M,Dodge,Ram,0.053,pre-owned,1
+40,engel.png,pants,M,Toyota,MR2,0.064,pre-owned,0
+41,murray.png,shirts,S,Lamborghini,Murciélago,0.01,pre-owned,0
+42,thyme.webp,pants,M,Chrysler,Town & Country,0.05,pre-owned,0
+43,blanks.webp,pants,M,GMC,Safari,0.072,new,1
+44,frog.png,hats,XL,Mercury,Topaz,0.051,pre-owned,1
+45,trousers.png,pants,S,Toyota,Camry,0.065,new,0
+46,wash.png,hats,XL,Land Rover,Range Rover,0.099,pre-owned,0
+47,fuze.png,shoes,S,Hummer,H3,0.049,new,0
+48,airflow.webp,hats,L,Audi,100,0.064,pre-owned,1
+49,flaming_lips.png,shirts,L,Ford,Probe,0.08,new,0
+50,myakki.png,shoes,L,Plymouth,Volare,0.087,new,0
+51,mexico.webp,pants,L,Ford,Bronco,0.016,new,0
+52,summer.webp,pants,M,Lamborghini,Gallardo,0.096,pre-owned,1
+53,boba_fett.png,hats,XL,Mercury,Grand Marquis,0.032,new,0
+54,boredom.webp,shirts,S,Buick,Electra,0.012,new,0
+55,paradise.png,shirts,M,Ford,Focus,0.031,new,1
+56,wrestling.webp,shoes,S,Lexus,SC,0.056,pre-owned,0
+57,arche.png,shoes,M,Cadillac,CTS,0.085,pre-owned,1
+58,kickin_bass.webp,shirts,XL,Mercedes-Benz,G-Class,0.097,new,0
+59,bucket.webp,hats,XL,Chevrolet,Malibu,0.095,pre-owned,1
+60,unicorn.webp,shirts,L,Pontiac,Grand Prix,0.033,new,0
+61,medley.webp,pants,XL,Acura,RL,0.052,new,1
+62,kerplunk.png,hats,XL,Mazda,MX-5,0.069,new,0
+63,pyke.webp,pants,M,Subaru,Impreza,0.082,pre-owned,0
+64,badminton.webp,shoes,L,Mitsubishi,Pajero,0.009,pre-owned,0

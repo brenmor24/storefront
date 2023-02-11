@@ -1,0 +1,1 @@
+/opt/mssql-tools/bin/sqlcmd -S edge -U SA -P 6rZ97aD22@m#Xf3Bu#r2 -d master -i /usr/src/app/create_db.sql
