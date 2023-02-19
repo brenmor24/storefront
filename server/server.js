@@ -1,5 +1,9 @@
 const express = require('express');
 const sql = require('mssql');
+const path = require('path');
+
+const fs = require('fs');
+const http = require('http');
 
 const config = {
     user: process.env.MSSQL_USER,
@@ -18,6 +22,11 @@ const app = express();
 app.use(express.json());
 app.use('/order', order_router);
 app.use('/product', product_router);
+
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 (async () => {
     try {
