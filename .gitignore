@@ -3,3 +3,5 @@ market/node_modules
 
 server/public
 market/build
+
+server/.ssl

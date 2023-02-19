@@ -36,11 +36,10 @@ services:
       - MSSQL_PASSWORD=6rZ97aD22@m#Xf3Bu#r2
       - MSSQL_DATABASE=Marketplace
       - MSSQL_SERVER=edge
-      - EXPRESS_PORT=2222
     build:
       context: ./server
     ports:
-      - 2222:2222
+      - 443:443
     volumes:
       - ./server:/usr/src/app
     depends_on:

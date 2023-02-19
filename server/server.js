@@ -4,6 +4,11 @@ const path = require('path');
 
 const fs = require('fs');
 const http = require('http');
+const https = require('https');
+const private_key = fs.readFileSync('.ssl/privkey.pem');
+const certificate = fs.readFileSync('.ssl/fullchain.pem');
+
+const credentials = { key: private_key, cert: certificate };
 
 const config = {
     user: process.env.MSSQL_USER,
@@ -31,9 +36,10 @@ app.get('/', (req, res) => {
 (async () => {
     try {
         app.locals.db = await app_pool.connect();
-        app.listen(port, () => 
-            console.log(`server listening at port ${port}...`)
-        );
+        // app.listen(port, () => 
+        //     console.log(`server listening at port ${port}...`)
+        // );
+        https.createServer(credentials, app).listen(443);
     } catch (error) {
         console.error('error creating connection pool', error);
     }
